@@ -360,7 +360,7 @@
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz"
   "version" "1.4.284"
 
-"esbuild@^0.16.3":
+"esbuild@^0.16.3", "esbuild@0.16.4":
   "integrity" "sha512-qQrPMQpPTWf8jHugLWHoGqZjApyx3OEm76dlTXobHwh/EBbavbRdjXdYi/GWr43GyN0sfpap14GPkb05NH3ROA=="
   "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.16.4.tgz"
   "version" "0.16.4"
