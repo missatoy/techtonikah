@@ -1,0 +1,19 @@
+.navbar {
+  background-color: blue;
+  color: white;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  height: 75px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+}
+
+li {
+  display: inline-block;
+  font-size: 36px;
+  padding: 20px;
+}
