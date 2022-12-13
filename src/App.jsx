@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import './css/index.css'
+import './index.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Tattoos from './components/Tattoos'
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+        <Navbar className="navbar" />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/tattoos" element={<Tattoos />}></Route>

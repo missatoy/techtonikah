@@ -1,0 +1,29 @@
+h1, h2, h3 {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+p {
+  font-family: 'Share Tech', sans-serif;
+}
+
+.navbar {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #25097D;
+  margin: 0;
+  height: 75px;
+}
+
+.navbar a {
+  color: #C8D804;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+}
+
+li {
+  list-style: none;
+  font-size: 36px;
+}
