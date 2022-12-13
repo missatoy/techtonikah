@@ -1,10 +1,10 @@
 import Navbar from "./Navbar"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 export default function Prints() {
   return (
     <>
-      <Link className="top-bar" to="/">Techtonikah</Link>
+      <NavLink className="top-bar" to="/">Techtonikah</NavLink>
       <div className="padding-top">
         <h2>Here's your prints</h2>
       </div>

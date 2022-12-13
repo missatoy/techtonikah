@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className="navbar">
       <NavLink to="/prints" className={isActive}>Prints</NavLink>
       <NavLink to="/tattoos" className={isActive}>Tattoos</NavLink>
-      <NavLink to="/about" className={isActive}>About</NavLink>
+      <NavLink to="/about" className={isActive}>About me</NavLink>
     </div>
   )
 }

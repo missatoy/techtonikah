@@ -21,7 +21,7 @@ p {
   top: 0px;
   width: 100%;
   height: 75px;
-  font-size: 26px;
+  font-size: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,7 +47,11 @@ p {
 }
 
 .navbar a.active {
-  color: #F6E302;
+  color: #0B58CA;
+}
+
+.navbar a:hover {
+  color: #0B58CA;
 }
 
 /* HOME */
