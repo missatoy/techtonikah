@@ -73,7 +73,7 @@ li {
   color: #fff;
   font-family: 'Share Tech Mono', monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: 3px solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   /* letter-spacing: .15em; Adjust as needed */
@@ -94,6 +94,8 @@ li {
 
 /* MEDIA QUERY */
 
-@media (min-height: 680px) {
-
-}
+/* @media (min-height: 845px) {
+  .techtonikah {
+    font-size: 100px;
+  }
+} */
