@@ -1,3 +1,7 @@
+body {
+  padding-top: 75px;
+}
+
 h1, h2, h3 {
   font-family: 'Share Tech Mono', monospace;
 }
@@ -6,14 +10,35 @@ p {
   font-family: 'Share Tech', sans-serif;
 }
 
-/* NAVBAR */
+/* TOP BAR */
+
+.top-bar {
+  font-family: 'Share Tech Mono', monospace;
+  color: #C8D804;
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 100%;
+  height: 75px;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BOTTOM BAR */
 
 .navbar {
   font-family: 'Share Tech Mono', monospace;
-  background-color: #25097D;
-  margin: 0;
   height: 75px;
-  justify-content: center;
+  padding: 0 10px 0 10px;
+  font-size: 26px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar a {
@@ -23,16 +48,6 @@ p {
 
 .navbar a.active {
   color: #F6E302;
-}
-
-ul {
-  display: flex;
-  gap: 150px;
-}
-
-li {
-  list-style: none;
-  font-size: 36px;
 }
 
 /* HOME */

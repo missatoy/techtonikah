@@ -8,12 +8,9 @@ export default function Navbar() {
 
   return (
     <div className="navbar">
-      <ul>
-        <li><NavLink to="/" className={isActive}>Home</NavLink></li>
-        <li><NavLink to="/tattoos" className={isActive}>Tattoos</NavLink></li>
-        <li><NavLink to="/prints" className={isActive}>Prints</NavLink></li>
-        <li><NavLink to="/about" className={isActive}>About</NavLink></li>
-      </ul>
+      <NavLink to="/prints" className={isActive}>Prints</NavLink>
+      <NavLink to="/tattoos" className={isActive}>Tattoos</NavLink>
+      <NavLink to="/about" className={isActive}>About</NavLink>
     </div>
   )
 }
