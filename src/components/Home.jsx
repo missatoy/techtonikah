@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div>
-      <h2>Here's your home</h2>
+    <div className="banner">
+      <h1 className="techtonikah">TECHTONIKAH</h1>
     </div>
   )
 }

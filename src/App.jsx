@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar className="navbar" />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/tattoos" element={<Tattoos />}></Route>

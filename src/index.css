@@ -6,11 +6,14 @@ p {
   font-family: 'Share Tech', sans-serif;
 }
 
+/* NAVBAR */
+
 .navbar {
   font-family: 'Share Tech Mono', monospace;
   background-color: #25097D;
   margin: 0;
   height: 75px;
+  justify-content: center;
 }
 
 .navbar a {
@@ -18,12 +21,34 @@ p {
   text-decoration: none;
 }
 
+.navbar a.active {
+  color: #F6E302;
+}
+
 ul {
   display: flex;
-  gap: 30px;
+  gap: 150px;
 }
 
 li {
   list-style: none;
   font-size: 36px;
+}
+
+/* HOME */
+
+.banner {
+  background-color: #25097D;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.techtonikah {
+  font-size: 100px;
+  color: #C8D804;
 }
