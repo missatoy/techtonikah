@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom"
 
 export default function Topbar() {
   return (
-    <NavLink className="top-bar" to="/"><h2>Techtonikah</h2></NavLink>
+    <div className="top-bar">
+      <NavLink to="/">Techtonikah</NavLink>
+    </div>
   )
 }
