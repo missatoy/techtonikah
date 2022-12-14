@@ -1,20 +1,30 @@
+body {
+  background-color: #000;
+}
+
 .padding-top {
   padding-top: 75px;
 }
 
 h1, h2, h3 {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'VT323', monospace;
+  /* font-family: 'Share Tech Mono', monospace; */
+  color: #06F108;
 }
 
 p {
-  font-family: 'Share Tech', sans-serif;
+  font-family: 'VT323', monospace;
+  /* font-family: 'Share Tech', sans-serif; */
+  color: #06F108;
+  font-size: 18px;
 }
 
 /* TOP BAR */
 
 .top-bar {
-  font-family: 'Share Tech Mono', monospace;
-  color: #C8D804;
+  /* font-family: 'Share Tech Mono', monospace; */
+  font-family: 'VT323', monospace;
+  color: #06F108;
   text-decoration: none;
   position: absolute;
   text-align: center;
@@ -27,10 +37,16 @@ p {
   justify-content: center;
 }
 
+.top-bar h2:hover {
+  color: #000;
+  background-color: #06F108;
+}
+
 /* BOTTOM BAR */
 
 .navbar {
-  font-family: 'Share Tech Mono', monospace;
+  /* font-family: 'Share Tech Mono', monospace; */
+  font-family: 'VT323', monospace;
   height: 75px;
   padding: 0 10px 0 10px;
   font-size: 26px;
@@ -42,22 +58,24 @@ p {
 }
 
 .navbar a {
-  color: #C8D804;
+  color: #06F108;
   text-decoration: none;
 }
 
-.navbar a.active {
-  color: #0B58CA;
-}
+/* .navbar a.active {
+  color: #000;
+  background-color: #06F108;
+} */
 
 .navbar a:hover {
-  color: #0B58CA;
+  color: #000;
+  background-color: #06F108;
 }
 
 /* HOME */
 
 .banner {
-  background-color: #25097D;
+  background-color: #000;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -68,8 +86,8 @@ p {
 }
 
 .techtonikah {
-  font-size: 60px;
-  color: #C8D804;
+  font-size: 80px;
+  color: #06F108;
 }
 
 .menu-items {
@@ -78,21 +96,22 @@ p {
 
 .menu-item {
   text-decoration: none;
-  font-size: 26px;
-  color: #C8D804;
+  font-size: 35px;
+  color: #06F108;
 }
 
 .menu-item:hover {
-  color: #F6E302;
+  color: #06F108;
 }
 
 /* TYPING EFFECT */
 
 .typewriter h2 {
   color: #fff;
-  font-family: 'Share Tech Mono', monospace;
+  /* font-family: 'Share Tech Mono', monospace; */
+  font-family: 'VT323', monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 3px solid orange; /* The typwriter cursor */
+  border-right: 3px solid #06F108; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   /* letter-spacing: .15em; Adjust as needed */
@@ -108,7 +127,7 @@ p {
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange }
+  50% { border-color: #06F108 }
 }
 
 /* MEDIA QUERY */

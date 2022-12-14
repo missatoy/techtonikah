@@ -1,12 +1,13 @@
-import { NavLink } from "react-router-dom"
 import Navbar from "./Navbar"
+import Topbar from "./Topbar"
 
 export default function Tattoos() {
   return (
     <>
-      <NavLink className="top-bar" to="/">Techtonikah</NavLink>
-      <div className="padding-top">
+      <Topbar />
+      <div className="container padding-top">
         <h2>Here's your tattoos</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni velit quo fugit atque dignissimos non ullam iste corporis nostrum dolorem, ipsum aperiam dolor illum fugiat officiis illo, voluptatem voluptates pariatur?</p>
       </div>
       <Navbar />
     </>
