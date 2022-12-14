@@ -5,22 +5,14 @@ Alternative fonts:
 */
 
 body {
+  font-family: 'VT323', monospace;
   background-color: #000;
+  color: #06F108;
+  font-size: 18px;
 }
 
 .padding-top {
   padding-top: 75px;
-}
-
-h1, h2, h3 {
-  font-family: 'VT323', monospace;
-  color: #06F108;
-}
-
-p {
-  font-family: 'VT323', monospace;
-  color: #06F108;
-  font-size: 18px;
 }
 
 /* TOP BAR */
@@ -37,7 +29,6 @@ p {
 }
 
 .top-bar a {
-  font-family: 'VT323', monospace;
   color: #06F108;
   text-decoration: none;
   font-size: 32px;
@@ -51,7 +42,6 @@ p {
 /* BOTTOM BAR */
 
 .navbar {
-  font-family: 'VT323', monospace;
   height: 75px;
   padding: 0 10px 0 10px;
   font-size: 32px;
@@ -80,7 +70,6 @@ p {
 /* HOME */
 
 .banner {
-  background-color: #000;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -92,7 +81,6 @@ p {
 
 .techtonikah {
   font-size: 80px;
-  color: #06F108;
 }
 
 .menu-items {
@@ -106,14 +94,13 @@ p {
 }
 
 .menu-item:hover {
-  color: #06F108;
+  background-color: #06F108;
+  color: #000;
 }
 
 /* TYPING EFFECT */
 
 .typewriter h2 {
-  color: #fff;
-  font-family: 'VT323', monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 3px solid #06F108; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
