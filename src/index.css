@@ -9,16 +9,14 @@ body {
   background-color: #000;
   color: #06F108;
   font-size: 18px;
-}
-
-.padding-top {
-  padding-top: 75px;
+  margin-bottom: 75px; /* so the text wont be hiding behind the fixed navbar */
 }
 
 /* TOP BAR */
 
 .top-bar {
-  position: absolute;
+  background-color: #000;
+  position: sticky;
   text-align: center;
   top: 0px;
   width: 100%;
@@ -42,10 +40,11 @@ body {
 /* BOTTOM BAR */
 
 .navbar {
+  background-color: #000;
   height: 75px;
   padding: 0 10px 0 10px;
   font-size: 32px;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   display: flex;
