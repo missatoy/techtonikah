@@ -12,6 +12,74 @@ body {
   margin-bottom: 75px; /* so the text wont be hiding behind the fixed navbar */
 }
 
+/* HOME */
+
+.banner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.wide-screen {
+  background-image:url(./assets/home-banner.png);
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.text-boxes {
+  margin: 20px;
+}
+
+.techtonikah {
+  font-size: 80px;
+}
+
+.menu-items {
+  display: flex;
+}
+
+.menu-item {
+  text-decoration: none;
+  font-size: 35px;
+  color: #06F108;
+}
+
+.menu-item:hover {
+  background-color: #06F108;
+  color: #000;
+}
+
+/* TYPING EFFECT */
+
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 3px solid #06F108; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em; Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #06F108 }
+}
+
 /* TOP BAR */
 
 .top-bar {
@@ -66,64 +134,10 @@ body {
   background-color: #34459C;
 }
 
-/* HOME */
-
-.banner {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.techtonikah {
-  font-size: 80px;
-}
-
-.menu-items {
-  display: flex;
-}
-
-.menu-item {
-  text-decoration: none;
-  font-size: 35px;
-  color: #06F108;
-}
-
-.menu-item:hover {
-  background-color: #34459C;
-  color: #000;
-}
-
-/* TYPING EFFECT */
-
-.typewriter h2 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 3px solid #06F108; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: .15em; Adjust as needed */
-  animation:
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #06F108 }
-}
-
 /* MEDIA QUERY */
 
-/* @media (min-height: 845px) {
-  .techtonikah {
-    font-size: 100px;
+@media (max-width: 820px) {
+  .banner {
+    align-items: center;
   }
-} */
+}
