@@ -34,7 +34,7 @@ body {
 
 .top-bar a:hover {
   color: #000;
-  background-color: #06F108;
+  background-color: #34459C;
 }
 
 /* BOTTOM BAR */
@@ -63,7 +63,7 @@ body {
 
 .navbar a:hover {
   color: #000;
-  background-color: #06F108;
+  background-color: #34459C;
 }
 
 /* HOME */
@@ -93,7 +93,7 @@ body {
 }
 
 .menu-item:hover {
-  background-color: #06F108;
+  background-color: #34459C;
   color: #000;
 }
 
