@@ -140,4 +140,8 @@ body {
   .banner {
     align-items: center;
   }
+
+  .wide-screen {
+    height: 100%;
+  }
 }
