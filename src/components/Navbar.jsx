@@ -9,9 +9,10 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar">
-        <NavLink to="/prints" className={isActive}>Prints</NavLink>
+        <NavLink to="/visual-arts" className={isActive}>Visual Arts</NavLink>
         <NavLink to="/tattoos" className={isActive}>Tattoos</NavLink>
         <NavLink to="/about" className={isActive}>About me</NavLink>
+        <NavLink to="/refs" className={isActive}>Refs</NavLink>
       </div>
     </>
   )

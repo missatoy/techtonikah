@@ -2,8 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import './index.css'
 import Home from './components/Home'
 import Tattoos from './components/Tattoos'
-import Prints from "./components/Prints"
+import VisualArts from "./components/VisualArts"
 import About from "./components/About"
+import Refs from "./components/Refs"
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/tattoos" element={<Tattoos />}></Route>
-          <Route path="/prints" element={<Prints />}></Route>
+          <Route path="/visual-arts" element={<VisualArts />}></Route>
           <Route path="/about" element={<About />}></Route>
+          <Route path="/refs" element={<Refs />}></Route>
         </Routes>
       </BrowserRouter>
     </>
