@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="navbar">
         <NavLink to="/visual-arts" className={isActive}>Visual Arts</NavLink>
         <NavLink to="/tattoos" className={isActive}>Tattoos</NavLink>
-        <NavLink to="/about" className={isActive}>About me</NavLink>
+        <NavLink to="/about" className={isActive}>About</NavLink>
         <NavLink to="/refs" className={isActive}>Refs</NavLink>
       </div>
     </>
