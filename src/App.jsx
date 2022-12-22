@@ -5,6 +5,7 @@ import Tattoos from './components/Tattoos'
 import VisualArts from "./components/VisualArts"
 import About from "./components/About"
 import Refs from "./components/Refs"
+import Page404 from "./components/Page404"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/visual-arts" element={<VisualArts />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/refs" element={<Refs />}></Route>
+          <Route path="*" element={<Page404 />}></Route>
         </Routes>
       </BrowserRouter>
     </>
