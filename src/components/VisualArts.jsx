@@ -17,8 +17,11 @@ export default function VisualArts() {
   return (
     <>
       <Topbar />
-      <div className="container windows-layout">
+      <div className="container windows-layout mb-4">
         <RetroWindow name="Visual Arts" content={visualArtsText} />
+        <RetroWindow name="Catalog" />
+      </div>
+      <div className="container windows-layout">
         <RetroWindow name="Contact Form" content={<FormArts />} />
       </div>
       <Navbar />

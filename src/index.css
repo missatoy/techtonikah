@@ -168,7 +168,7 @@ body {
 
 .retro-body {
   border: solid #06F108;
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 275px;
 }
 
