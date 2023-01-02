@@ -1,13 +1,14 @@
-import Topbar from "./Topbar"
-import Bottombar from "./Bottombar"
+import Topbar from "./Navbars/Topbar"
+import Bottombar from "./Navbars/Bottombar"
+import RetroWindow from "./Visuals/RetroWindow"
 
 export default function Refs() {
+
   return (
     <>
       <Topbar />
       <div className="container">
-        <h2>Your refs here</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio id ducimus cupiditate similique dolor quos quasi, tenetur corrupti amet sit asperiores incidunt earum ad officia dicta eaque blanditiis soluta non.</p>
+        
       </div>
       <Bottombar />
     </>

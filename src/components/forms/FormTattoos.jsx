@@ -36,7 +36,7 @@ export default function FormTattoos() {
   return (
     <div className="row justify-content-center">
       <form onSubmit={onSubmit} className="col-lg-4 col-sm-12 row">
-        <div className="form-group d-flex flex-column">
+        <div className="form-group d-flex flex-column mt-1">
           <label htmlFor="name">Name</label>
           <input
             type='text'
@@ -45,7 +45,7 @@ export default function FormTattoos() {
             id="name"
             value={toSend.from_name}
             onChange={handleChange}
-            className="mb-3 form-field"
+            className="mb-2 form-field"
             required
           />
         </div>
@@ -58,7 +58,7 @@ export default function FormTattoos() {
             id="message"
             value={toSend.message}
             onChange={handleChange}
-            className="mb-3 form-field"
+            className="mb-2 form-field"
             required
           />
         </div>
@@ -76,7 +76,7 @@ export default function FormTattoos() {
           />
         </div>
         <div className="form-group">
-          <button type='submit' className="form-button">Submit</button>
+          <button type='submit' className="form-button mb-3  w-100">Submit</button>
         </div>
       </form>
     </div>

@@ -10,6 +10,7 @@ body {
   color: #06F108;
   font-size: 18px;
   margin-bottom: 75px; /* so the text wont be hiding behind the fixed navbar */
+  text-align: justify;
 }
 
 /* HOME */
@@ -134,7 +135,7 @@ body {
   background-color: #34459C;
 }
 
-/* FORMS FIELDS */
+/* FORMS */
 
 .form-field {
   background-color: black;
@@ -144,6 +145,47 @@ body {
 
 .form-button {
   background-color: #06F108;
+  font-size: 20px;
+}
+
+/* RETRO WINDOW */
+
+.retro-window {
+  border: solid #06F108;
+  width: 35%;
+}
+
+.retro-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.retro-body {
+  border: solid #06F108;
+  overflow-y: scroll;
+  height: 275px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #005801ba;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #06F108;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00c303;
+}
+
+.exit {
+  border: solid #06F108;
+  padding: 0 8px 0 8px;
 }
 
 /* MEDIA QUERY */
@@ -159,5 +201,13 @@ body {
 
   .menu-item {
     font-size: 27px;
+  }
+
+  .retro-window {
+    width: 100%;
+  }
+
+  .retro-body {
+    height: 250px;
   }
 }

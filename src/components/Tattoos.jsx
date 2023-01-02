@@ -1,6 +1,6 @@
-import Navbar from "./Bottombar"
-import Topbar from "./Topbar"
-import FormTattoos from "./forms/FormTattoos"
+import Navbar from "./Navbars/Bottombar"
+import Topbar from "./Navbars/Topbar"
+import FormTattoos from "./Forms/FormTattoos"
 
 export default function Tattoos() {
   return (

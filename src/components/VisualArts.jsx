@@ -1,6 +1,6 @@
-import Navbar from "./Bottombar"
-import Topbar from "./Topbar"
-import FormArts from "./forms/FormArts"
+import Navbar from "./Navbars/Bottombar"
+import Topbar from "./Navbars/Topbar"
+import FormArts from "./Forms/FormArts"
 
 export default function VisualArts() {
   return (
