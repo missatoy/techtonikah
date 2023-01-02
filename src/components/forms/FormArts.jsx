@@ -35,7 +35,7 @@ export default function FormArts() {
 
   return (
     <div className="row justify-content-center">
-      <form onSubmit={onSubmit} className="col-lg-4 col-sm-12 row">
+      <form onSubmit={onSubmit} className="col-sm-12 row">
         <div className="form-group d-flex flex-column">
           <label htmlFor="name">Name</label>
           <input

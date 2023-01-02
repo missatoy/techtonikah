@@ -5,8 +5,8 @@ export default function RetroWindow(props) {
         <h5>{props.name}</h5>
         <h5 className="exit">x</h5>
       </div>
-      <div className="retro-body p-1">
-        {props.text}
+      <div className="retro-body p-2">
+        {props.content}
       </div>
     </div>
   )
