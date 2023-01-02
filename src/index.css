@@ -134,6 +134,18 @@ body {
   background-color: #34459C;
 }
 
+/* FORMS FIELDS */
+
+.form-field {
+  background-color: black;
+  border-color: #06F108;
+  color: #06F108;
+}
+
+.form-button {
+  background-color: #06F108;
+}
+
 /* MEDIA QUERY */
 
 @media (max-width: 820px) {

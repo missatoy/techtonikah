@@ -1,5 +1,6 @@
-import Navbar from "./Navbar"
+import Navbar from "./Bottombar"
 import Topbar from "./Topbar"
+import FormArts from "./forms/FormArts"
 
 export default function VisualArts() {
   return (
@@ -12,6 +13,7 @@ export default function VisualArts() {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda enim, reprehenderit asperiores tempora, excepturi autem atque fugit pariatur earum ipsum repudiandae fuga in rerum perspiciatis laborum non soluta velit sequi!</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores expedita voluptate, optio placeat laboriosam corporis cumque error natus. Nihil nemo similique voluptatum magnam consequatur obcaecati architecto ratione ducimus impedit voluptatibus?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius aliquid quam nemo dolore veniam illo nulla, veritatis beatae ipsam architecto eligendi, a aliquam numquam maiores voluptatem pariatur, ea eos?</p>
+        <FormArts />
       </div>
       <Navbar />
     </>
