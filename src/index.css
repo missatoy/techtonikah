@@ -15,8 +15,34 @@ body {
 
 .windows-layout {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 45px;
   align-items: center;
+}
+
+/* .hidden-link {
+  color: #000;
+} */
+
+.catalog-link {
+  text-decoration: none;
+  color: #000;
+  background-color: #06F108;
+  padding: 0 25px 0 25px;
+  border: outset 2px rgb(118, 118, 118);
+}
+
+.catalog-link:hover {
+  color: #000;
+  background-color: #34459C;
+}
+
+.catalog-margin-bottom {
+  margin-bottom: 10px;
+}
+
+.catalog-link-margin-bottom {
+  margin-bottom: 30px;
 }
 
 /* HOME */
@@ -154,11 +180,17 @@ body {
   font-size: 20px;
 }
 
+.form-button:hover {
+  background-color: #34459C;
+  color: #000;
+}
+
 /* RETRO WINDOW */
 
 .retro-window {
   border: solid #06F108;
-  width: 35%;
+  max-width: 750px;
+  min-width: 450px;
 }
 
 .retro-header {
@@ -210,7 +242,7 @@ body {
   }
 
   .retro-window {
-    width: 100%;
+    min-width: 370px;
   }
 
   .retro-body {
@@ -221,5 +253,9 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+  }
+
+  .catalog-link-margin-bottom {
+    margin-bottom: 10px;
   }
 }
