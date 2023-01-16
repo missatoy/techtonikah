@@ -13,22 +13,22 @@ body {
   text-align: justify;
 }
 
-.windows-layout {
+.windows-layout-one {
   display: flex;
-  justify-content: center;
   gap: 45px;
   align-items: center;
 }
 
-/* .hidden-link {
-  color: #000;
-} */
+.windows-layout-two {
+  display: flex;
+  align-items: center;
+}
 
 .catalog-link {
   text-decoration: none;
   color: #000;
   background-color: #06F108;
-  padding: 0 25px 0 25px;
+  padding: 10px 35px 10px 35px;
   border: outset 2px rgb(118, 118, 118);
 }
 
@@ -43,6 +43,19 @@ body {
 
 .catalog-link-margin-bottom {
   margin-bottom: 30px;
+}
+
+.catalog-tattoos-margin-top {
+  margin-top: 75px;
+}
+
+.catalog-tattoos-link-margin {
+  margin-top: 25px;
+  margin-bottom: -30px;
+}
+
+.tattoos-contact-form-margin-top {
+  margin-bottom: -45px;
 }
 
 /* HOME */
@@ -249,7 +262,13 @@ body {
     height: 250px;
   }
 
-  .windows-layout {
+  .windows-layout-one {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .windows-layout-two {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -257,5 +276,18 @@ body {
 
   .catalog-link-margin-bottom {
     margin-bottom: 10px;
+  }
+
+  .catalog-tattoos-margin-top {
+    margin-top: 0;
+  }
+
+  .tattoos-contact-form-margin-top {
+    margin: 0;
+  }
+
+  .catalog-tattoos-link-margin {
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }

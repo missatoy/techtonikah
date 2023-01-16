@@ -12,18 +12,26 @@ export default function Tattoos() {
     <>
       <Topbar />
       <div className="container">
-        <div className="windows-layout mt-3 mb-5">
+        <div className="windows-layout-one justify-content-center mt-3">
           <div>
             <RetroWindow name="Tattoos" content={tattoosText} />
           </div>
-          <div className="mt-5">
-            <RetroWindow name="Contact Me" content={<FormTattoos />} />
+          <div>
+            <RetroWindow name="Contact Me" content={<FormTattoos />} className="tattoos-contact-form-margin-top" />
           </div>
         </div>
-        <div className="windows-layout mb-3">
+        <div className="d-flex justify-content-center">
+          <a href="url" className="catalog-link catalog-tattoos-link-margin">Link text</a>
+        </div>
+        <div className="windows-layout-two justify-content-center mb-3">
           <div className="d-flex flex-column align-items-center">
             <RetroWindow name="Catalog Tattoos" content={tattoosText} className="catalog-margin-bottom" />
-            <a href="url" className="catalog-link catalog-link-margin-bottom">Link text</a>
+          </div>
+          <div className="d-flex flex-column align-items-center catalog-tattoos-margin-top">
+            <RetroWindow name="Catalog Tattoos" content={tattoosText} className="catalog-margin-bottom" />
+          </div>
+          <div className="d-flex flex-column align-items-center">
+            <RetroWindow name="Catalog Tattoos" content={tattoosText} className="catalog-margin-bottom" />
           </div>
         </div>
       </div>
