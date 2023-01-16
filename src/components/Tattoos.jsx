@@ -13,7 +13,7 @@ export default function Tattoos() {
       <Topbar />
       <div className="container windows-layout mb-4">
         <RetroWindow name="Tattoos" content={tattoosText} />
-        <RetroWindow name="Contact us" content={<FormTattoos />} />
+        <RetroWindow name="Contact Us" content={<FormTattoos />} />
       </div>
       <Navbar />
     </>

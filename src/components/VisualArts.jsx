@@ -22,7 +22,7 @@ export default function VisualArts() {
         <RetroWindow name="Catalog" />
       </div>
       <div className="container windows-layout">
-        <RetroWindow name="Contact Form" content={<FormArts />} />
+        <RetroWindow name="Contact Us" content={<FormArts />} />
       </div>
       <Navbar />
     </>
