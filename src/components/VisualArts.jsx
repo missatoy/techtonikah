@@ -20,20 +20,20 @@ export default function VisualArts() {
       <div className="container">
         <div className="windows-layout-one justify-content-center mt-4 mb-3">
           <div>
-            <RetroWindow name="Introductional text" content={visualArtsText} />
+            <RetroWindow name="Introductional text" content={visualArtsText} className="retro-window" />
           </div>
           <div className="d-flex flex-column align-items-center">
-            <RetroWindow name="Catalog Prints" content={visualArtsText} className="catalog-margin-bottom" />
+            <RetroWindow name="Catalog Prints" content={visualArtsText} className="retro-window catalog-margin-bottom" />
             <a href="url" className="catalog-link catalog-link-margin-bottom">Link text</a>
           </div>
         </div>
         <div className="windows-layout-one justify-content-center mb-3">
           <div className="d-flex flex-column align-items-center">
-            <RetroWindow name="Catalog Canvas" content={visualArtsText} className="catalog-margin-bottom" />
+            <RetroWindow name="Catalog Canvas" content={visualArtsText} className="retro-window catalog-margin-bottom" />
             <a href="url" className="catalog-link catalog-link-margin-bottom">Link text</a>
           </div>
           <div>
-            <RetroWindow name="Contact Us" content={<FormArts />} />
+            <RetroWindow name="Contact Us" content={<FormArts />} className="retro-window" />
           </div>
         </div>
       </div>

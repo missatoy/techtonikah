@@ -6,14 +6,14 @@ export default function About() {
   return (
     <>
       <Topbar />
-      <div className="container windows-layout-one justify-content-center mt-5 mb-3">
-        <div>
-          <RetroWindow />
+        <div className="about-banner">
+          <div>
+            <RetroWindow name="Jade" className="about-windows" />
+          </div>
+          <div>
+            <RetroWindow name="Techtonikah" className="about-windows" />
+          </div>
         </div>
-        <div>
-          <RetroWindow />
-        </div>
-      </div>
       <Bottombar />
     </>
   )

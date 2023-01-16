@@ -14,10 +14,10 @@ export default function Tattoos() {
       <div className="container">
         <div className="windows-layout-one justify-content-center mt-3">
           <div>
-            <RetroWindow name="Tattoos" content={tattoosText} />
+            <RetroWindow name="Tattoos" content={tattoosText} className="retro-window" />
           </div>
           <div>
-            <RetroWindow name="Contact Me" content={<FormTattoos />} className="tattoos-contact-form-margin-top" />
+            <RetroWindow name="Contact Me" content={<FormTattoos />} className="retro-window tattoos-contact-form-margin-top" />
           </div>
         </div>
         <div className="d-flex justify-content-center">
@@ -25,13 +25,13 @@ export default function Tattoos() {
         </div>
         <div className="windows-layout-two justify-content-center mb-3">
           <div className="d-flex flex-column align-items-center">
-            <RetroWindow name="Catalog Tattoos" content={tattoosText} className="catalog-margin-bottom" />
+            <RetroWindow name="Catalog Tattoos" content={tattoosText} className="retro-window catalog-margin-bottom" />
           </div>
           <div className="d-flex flex-column align-items-center catalog-tattoos-margin-top">
-            <RetroWindow name="Catalog Tattoos" content={tattoosText} className="catalog-margin-bottom" />
+            <RetroWindow name="Catalog Tattoos" content={tattoosText} className="retro-window catalog-margin-bottom" />
           </div>
           <div className="d-flex flex-column align-items-center">
-            <RetroWindow name="Catalog Tattoos" content={tattoosText} className="catalog-margin-bottom" />
+            <RetroWindow name="Catalog Tattoos" content={tattoosText} className="retro-window catalog-margin-bottom" />
           </div>
         </div>
       </div>

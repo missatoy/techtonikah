@@ -58,6 +58,20 @@ body {
   margin-bottom: -45px;
 }
 
+.about-banner {
+  position: absolute;
+  height: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-windows {
+  min-width: 600px;
+  border: solid #06F108;
+}
+
 /* HOME */
 
 .banner {
@@ -289,5 +303,13 @@ body {
   .catalog-tattoos-link-margin {
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+
+  .about-banner {
+    flex-direction: column;
+  }
+
+  .about-windows {
+    min-width: 370px;
   }
 }
