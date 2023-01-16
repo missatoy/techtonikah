@@ -11,18 +11,20 @@ export default function Tattoos() {
   return (
     <>
       <Topbar />
-      <div className="container windows-layout mb-5">
-        <div>
-          <RetroWindow name="Tattoos" content={tattoosText} />
+      <div className="container">
+        <div className="windows-layout mt-3 mb-5">
+          <div>
+            <RetroWindow name="Tattoos" content={tattoosText} />
+          </div>
+          <div className="mt-5">
+            <RetroWindow name="Contact Me" content={<FormTattoos />} />
+          </div>
         </div>
-        <div>
-          <RetroWindow name="Contact Me" content={<FormTattoos />} />
-        </div>
-      </div>
-      <div className="container windows-layout mb-3">
-        <div className="d-flex flex-column align-items-center">
-          <RetroWindow name="Catalog Tattoos" content={tattoosText} className="catalog-margin-bottom" />
-          <a href="url" className="catalog-link catalog-link-margin-bottom">Link text</a>
+        <div className="windows-layout mb-3">
+          <div className="d-flex flex-column align-items-center">
+            <RetroWindow name="Catalog Tattoos" content={tattoosText} className="catalog-margin-bottom" />
+            <a href="url" className="catalog-link catalog-link-margin-bottom">Link text</a>
+          </div>
         </div>
       </div>
       <Navbar />
