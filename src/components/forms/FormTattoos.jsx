@@ -76,7 +76,7 @@ export default function FormTattoos() {
           />
         </div>
         <div className="form-group">
-          <button type='submit' className="form-button mb-3  w-100">Submit</button>
+          <button type='submit' className="form-button mb-3 w-100">Submit</button>
         </div>
       </form>
     </div>
