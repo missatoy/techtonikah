@@ -1,5 +1,5 @@
-import Botbar from "./navbars/Botbar.jsx"
 import Topbar from "./Navbars/Topbar.jsx"
+import Botbar from "./navbars/Botbar.jsx"
 
 export default function Refs() {
 
