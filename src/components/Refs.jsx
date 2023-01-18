@@ -1,6 +1,6 @@
-import Topbar from "./Navbars/Topbar"
-import Bottombar from "./Navbars/Bottombar"
-import RetroWindow from "./Visuals/RetroWindow"
+import Topbar from "./navbars/Topbar"
+import Bottombar from "./navbars/Bottombar"
+import RetroWindow from "./visuals/RetroWindow"
 
 export default function Refs() {
 
@@ -8,7 +8,7 @@ export default function Refs() {
     <>
       <Topbar />
       <div className="container">
-        
+
       </div>
       <Bottombar />
     </>

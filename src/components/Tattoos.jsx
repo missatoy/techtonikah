@@ -1,7 +1,7 @@
-import Navbar from "./Navbars/Bottombar"
-import Topbar from "./Navbars/Topbar"
-import FormTattoos from "./Forms/FormTattoos"
-import RetroWindow from "./Visuals/RetroWindow"
+import Navbar from "./navbars/Bottombar"
+import Topbar from "./navbars/Topbar"
+import FormTattoos from "./forms/FormTattoos"
+import RetroWindow from "./visuals/RetroWindow"
 
 export default function Tattoos() {
   const tattoosText = (

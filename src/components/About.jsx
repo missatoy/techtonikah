@@ -1,6 +1,6 @@
-import Bottombar from "./Navbars/Bottombar"
-import Topbar from "./Navbars/Topbar"
-import RetroWindow from "./Visuals/RetroWindow"
+import Bottombar from "./navbars/Bottombar"
+import Topbar from "./navbars/Topbar"
+import RetroWindow from "./visuals/RetroWindow"
 
 export default function About() {
   return (

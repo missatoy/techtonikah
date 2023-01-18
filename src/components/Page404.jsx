@@ -1,5 +1,5 @@
-import Bottombar from "./Navbars/Bottombar"
-import Topbar from "./Navbars/Topbar"
+import Bottombar from "./navbars/Bottombar"
+import Topbar from "./navbars/Topbar"
 
 export default function Page404() {
   return (
