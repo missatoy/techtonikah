@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import './index.css'
-import Home from './components/Home'
-import Tattoos from './components/Tattoos'
-import VisualArts from "./components/VisualArts"
-import About from "./components/About"
-import Refs from "./components/Refs"
-import Page404 from "./components/Page404"
+import Home from './components/Home.jsx'
+import Tattoos from './components/Tattoos.jsx'
+import VisualArts from "./components/VisualArts.jsx"
+import About from "./components/About.jsx"
+import Refs from "./components/Refs.jsx"
+import Page404 from "./components/Page404.jsx"
 
 function App() {
   return (

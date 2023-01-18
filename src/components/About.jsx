@@ -1,7 +1,6 @@
-import Botbar from "./navbars/Botbar"
-import Bot from "./navbars/Botbar"
-import Topbar from "./navbars/Topbar"
-import RetroWindow from "./visuals/RetroWindow"
+import Botbar from "./navbars/Botbar.jsx"
+import Topbar from "./navbars/Topbar.jsx"
+import RetroWindow from "./visuals/RetroWindow.jsx"
 
 export default function About() {
   return (

@@ -1,6 +1,5 @@
-import Topbar from "./navbars/Topbar"
-import Botbar from "./navbars/Botbar"
-import RetroWindow from "./visuals/RetroWindow"
+import Botbar from "./navbars/Botbar.jsx"
+import Topbar from "./Navbars/Topbar.jsx"
 
 export default function Refs() {
 
