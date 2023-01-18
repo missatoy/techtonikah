@@ -1,5 +1,5 @@
-import Botbar from "./navbars/Botbar.jsx"
-import Topbar from "./navbars/Topbar.jsx"
+import Botbar from "./navbars/Botbar.jsx";
+import Topbar from "./navbars/Topbar.jsx";
 
 export default function Page404() {
   return (

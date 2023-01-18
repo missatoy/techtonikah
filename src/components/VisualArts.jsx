@@ -1,7 +1,7 @@
-import Topbar from "./navbars/Topbar.jsx"
-import FormArts from "./forms/FormArts.jsx"
-import RetroWindow from "./visuals/RetroWindow.jsx"
-import Botbar from "./navbars/Botbar.jsx"
+import Topbar from "./navbars/Topbar.jsx";
+import FormArts from "./forms/FormArts.jsx";
+import RetroWindow from "./visuals/RetroWindow.jsx";
+import Botbar from "./navbars/Botbar.jsx";
 
 export default function VisualArts() {
   const visualArtsText = (
