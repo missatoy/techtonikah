@@ -1,7 +1,7 @@
-import Navbar from "./navbars/Bottombar"
 import Topbar from "./navbars/Topbar"
 import FormArts from "./forms/FormArts"
 import RetroWindow from "./visuals/RetroWindow"
+import Botbar from "./navbars/Botbar"
 
 export default function VisualArts() {
   const visualArtsText = (
@@ -37,7 +37,7 @@ export default function VisualArts() {
           </div>
         </div>
       </div>
-      <Navbar />
+      <Botbar />
     </>
   )
 }

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 
-export default function Bottombar() {
+export default function Botbar() {
 
   function isActive({isActive}) {
     return isActive ? "active" : ""

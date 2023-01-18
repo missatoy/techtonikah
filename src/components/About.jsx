@@ -1,4 +1,5 @@
-import Bottombar from "./navbars/Bottombar"
+import Botbar from "./navbars/Botbar"
+import Bot from "./navbars/Botbar"
 import Topbar from "./navbars/Topbar"
 import RetroWindow from "./visuals/RetroWindow"
 
@@ -14,7 +15,7 @@ export default function About() {
             <RetroWindow name="Techtonikah" className="about-windows" />
           </div>
         </div>
-      <Bottombar />
+      <Botbar />
     </>
   )
 }

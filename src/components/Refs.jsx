@@ -1,5 +1,5 @@
 import Topbar from "./navbars/Topbar"
-import Bottombar from "./navbars/Bottombar"
+import Botbar from "./navbars/Botbar"
 import RetroWindow from "./visuals/RetroWindow"
 
 export default function Refs() {
@@ -10,7 +10,7 @@ export default function Refs() {
       <div className="container">
 
       </div>
-      <Bottombar />
+      <Botbar />
     </>
   )
 }

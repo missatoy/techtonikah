@@ -1,7 +1,7 @@
-import Bottombar from "./navbars/Bottombar"
 import Topbar from "./navbars/Topbar"
 import FormTattoos from "./forms/FormTattoos"
 import RetroWindow from "./visuals/RetroWindow"
+import Botbar from "./navbars/Botbar"
 
 export default function Tattoos() {
   const tattoosText = (
@@ -35,7 +35,7 @@ export default function Tattoos() {
           </div>
         </div>
       </div>
-      <Bottombar />
+      <Botbar />
     </>
   )
 }

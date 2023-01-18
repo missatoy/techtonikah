@@ -1,4 +1,4 @@
-import Bottombar from "./navbars/Bottombar"
+import Botbar from "./navbars/Botbar"
 import Topbar from "./navbars/Topbar"
 
 export default function Page404() {
@@ -9,7 +9,7 @@ export default function Page404() {
       <h2>404</h2>
       <h2>Page not found</h2>
     </div>
-    <Bottombar />
+    <Botbar />
     </>
   )
 }
