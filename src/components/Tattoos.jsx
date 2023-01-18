@@ -1,6 +1,6 @@
 import FormTattoos from "./forms/FormTattoos.jsx";
-import Topbar from "./navbars/Topbar.jsx"
 import RetroWindow from "./visuals/RetroWindow.jsx";
+import Topbar from "./navbars/Topbar.jsx"
 import Botbar from "./navbars/Botbar.jsx";
 
 export default function Tattoos() {
