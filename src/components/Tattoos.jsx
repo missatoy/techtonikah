@@ -1,4 +1,4 @@
-import Navbar from "./navbars/Bottombar"
+import Bottombar from "./navbars/Bottombar"
 import Topbar from "./navbars/Topbar"
 import FormTattoos from "./forms/FormTattoos"
 import RetroWindow from "./visuals/RetroWindow"
@@ -35,7 +35,7 @@ export default function Tattoos() {
           </div>
         </div>
       </div>
-      <Navbar />
+      <Bottombar />
     </>
   )
 }
