@@ -68,7 +68,7 @@ body {
 }
 
 .about-windows {
-  min-width: 600px;
+  min-width: 450px;
   border: solid #06F108;
 }
 
@@ -216,8 +216,8 @@ body {
 
 .retro-window {
   border: solid #06F108;
-  max-width: 750px;
-  min-width: 450px;
+  max-width: 450px;
+  min-width: 400px;
 }
 
 .retro-header {
