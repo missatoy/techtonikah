@@ -12,7 +12,7 @@ export default function Tattoos() {
     <>
       <Topbar />
       <div className="container">
-        <div className="windows-layout-one justify-content-center mt-3">
+        <div className="windows-layout-one justify-content-center">
           <div>
             <RetroWindow name="Tattoos" content={tattoosText} className="retro-window" />
           </div>

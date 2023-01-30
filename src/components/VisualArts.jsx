@@ -18,7 +18,7 @@ export default function VisualArts() {
     <>
       <Topbar />
       <div className="container">
-        <div className="windows-layout-one justify-content-center mt-4 mb-5">
+        <div className="windows-layout-one justify-content-center mb-5">
           <div>
             <RetroWindow name="Introductional text" content={visualArtsText} className="retro-window" />
           </div>
