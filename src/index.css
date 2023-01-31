@@ -65,6 +65,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  row-gap: 20px;
 }
 
 .about-windows {
@@ -305,6 +306,7 @@ body {
 
   .about-banner {
     flex-direction: column;
+    position: unset;
   }
 
   .about-windows {
