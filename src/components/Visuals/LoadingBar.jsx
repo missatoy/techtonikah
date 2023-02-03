@@ -9,6 +9,9 @@ export default function LoadingBar() {
       const width = parseFloat(computedStyle.getPropertyValue('--width')) || 0
       progressBar.style.setProperty('--width', width + .1)
     }, 2);
+    setTimeout(() => {
+      window.open('https://www.instagram.com/techtonikah.tatu/');
+    }, 4500);
   })
 
 

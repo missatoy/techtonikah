@@ -11,9 +11,7 @@ import { getAnalytics } from "firebase/analytics";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App /> /* removed restricted app so it won't open 2 tabs after loading bar */
 )
 
 
