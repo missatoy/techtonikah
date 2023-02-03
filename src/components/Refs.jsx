@@ -7,7 +7,7 @@ export default function Refs() {
   return (
     <>
       <Topbar />
-      <div className="d-flex justify-content-center align-items-center flex-column about-banner">
+      <div className="loading-banner">
         <h1>Loading...</h1>
         <LoadingBar />
       </div>
