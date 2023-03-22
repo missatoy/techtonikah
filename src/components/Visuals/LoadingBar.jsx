@@ -10,7 +10,7 @@ export default function LoadingBar() {
       progressBar.style.setProperty('--width', width + .1)
     }, 2);
     setTimeout(() => {
-      window.open('https://www.instagram.com/techtonikah.tatu/');
+      window.open('https://www.instagram.com/stories/highlights/18269930926049239/');
     }, 4500);
   })
 
