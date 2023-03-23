@@ -297,8 +297,16 @@ body {
     height: 100%;
   }
 
+  .techtonikah {
+    text-align: center;
+  }
+
   .menu-item {
     font-size: 27px;
+  }
+
+  .text-boxes {
+    margin: 0;
   }
 
   .retro-window {
