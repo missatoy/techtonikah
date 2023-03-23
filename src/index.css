@@ -312,7 +312,8 @@ body {
   }
 
   .retro-window {
-    min-width: 370px;
+      min-width: 325px;
+      max-width: 325px;
   }
 
   .retro-body {
@@ -354,7 +355,8 @@ body {
   }
 
   .about-windows {
-    min-width: 370px;
+    min-width: 325px;
+    max-width: 325px;
   }
 
   .progress-bar {
