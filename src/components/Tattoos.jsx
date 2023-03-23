@@ -36,7 +36,7 @@ export default function Tattoos() {
         <div className="d-flex justify-content-center">
           <a href="https://docs.google.com/presentation/d/1e7-nOjk6b1IoDyf195gkKcJpvtyVpHbvtdj2XSKGO24/edit"
              target="_blank"
-             className="catalog-link catalog-tattoos-link-margin">Ver Catálogo</a>
+             className="catalog-link catalog-tattoos-link-margin">VER CATÁLOGO</a>
         </div>
         <div className="windows-layout-two justify-content-center mb-3">
           <div className="d-flex flex-column align-items-center">
