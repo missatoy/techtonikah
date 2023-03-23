@@ -4,14 +4,14 @@ import RetroWindow from "./visuals/RetroWindow.jsx";
 import Botbar from "./navbars/Botbar.jsx";
 
 export default function VisualArts() {
-  const visualArtsText = (
-    <>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit soluta quia doloremque? Officia soluta, recusandae perspiciatis minus provident in! Repellat quia ipsum cumque est laboriosam, eaque quo aliquid excepturi!</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed omnis voluptatem deleniti. Tempore blanditiis, eveniet atque quia molestiae non enim praesentium alias ratione quo rem fugiat distinctio sed inventore et.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda enim, reprehenderit asperiores tempora, excepturi autem atque fugit pariatur earum ipsum repudiandae fuga in rerum perspiciatis laborum non soluta velit sequi!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores expedita voluptate, optio placeat laboriosam corporis cumque error natus. Nihil nemo similique voluptatum magnam consequatur obcaecati architecto ratione ducimus impedit voluptatibus?</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius aliquid quam nemo dolore veniam illo nulla, veritatis beatae ipsam architecto eligendi, a aliquam numquam maiores voluptatem pariatur, ea eos?</p>
-    </>
+  const trabalhoGraficoText = (
+    <p>
+      Inicialmente nomeado Aparições Digitais, a vertente gráfica do meu trabalho visual e plástico é uma tentativa de saturar e adormecer para confudir o globo ocular. <br />
+      <br />
+      Através da sobreposição e fragmentação de imagens que integram um acervo pessoal, mesclo imagens autorais e/ou outras produções visuais resultantes de uma pesquisa intencionada que busca elementos simbólicos da narrativa do meu trabalho, afim de sinalizar uma miragem opaca, sinuosa e à primeira vista irreconhecível. <br />
+      <br />
+      A escrita ou a imagem da palavra propulsiona um convite a um olhar mais atencioso e imersivo, mas serve principalmente como registro-rastro visual da minha produção literária. <br />
+    </p>
   )
 
   return (
@@ -20,16 +20,18 @@ export default function VisualArts() {
       <div className="container">
         <div className="windows-layout-one justify-content-center mb-5">
           <div>
-            <RetroWindow name="Introductional text" content={visualArtsText} className="retro-window" />
+            <RetroWindow name="VISUAL" content={"img"} className="retro-window" />
           </div>
           <div className="d-flex flex-column align-items-center">
-            <RetroWindow name="Catalog Prints" content={visualArtsText} className="retro-window catalog-margin-bottom" />
-            <a href="url" className="catalog-link catalog-link-margin-bottom">Link text</a>
+            <RetroWindow name="KÁTALOGØ GRÁPHICO" content={trabalhoGraficoText} className="retro-window catalog-margin-bottom" />
+            <a href="https://docs.google.com/presentation/d/1H5JVyvyujqAO-C9vpy_ZOjAU3Z7uBW-uCl1AYLyizdU/edit?usp=sharing"
+               target="_blank"
+               className="catalog-link catalog-link-margin-bottom">VER CATÁLOGO</a>
           </div>
         </div>
         <div className="windows-layout-one justify-content-center mb-3">
           <div className="d-flex flex-column align-items-center">
-            <RetroWindow name="Catalog Canvas" content={visualArtsText} className="retro-window catalog-margin-bottom" />
+            <RetroWindow name="PINTURA" content={""} className="retro-window catalog-margin-bottom" />
             <a href="url" className="catalog-link catalog-link-margin-bottom">Link text</a>
           </div>
           <div>
