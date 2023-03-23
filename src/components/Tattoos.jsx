@@ -7,8 +7,11 @@ export default function Tattoos() {
   const tattoosText = (
     <p>
       handpoke (rendpoque, poc poc, poke, tatuagem sem máquina,...) é uma técnica de pigmentação corporal manual, ou seja, sem eletricidade. somente a agulha e a tinta na pele :) <br />
+      <br />
       práticas de modificação corporal como pigmentação, perfuração ou escarnificação são muito antigas e tradicionais, a maneira de realizar esses procedimentos é construída culturalmente e se renova constantemente por quem a pratica, mas o ínicio da história da tatuagem começa na pigmentação manual, exemplos que sustentam sua tradição até hoje são: o tebori no Japão ou o batok nas Filipinas para o povo Kalinga e na Nova Zelândia , em contextos cerimoniais, ou seja, de importância social e espiritual. práticas muito voltadas ao processo todo, para além do estético. e que carregam suas tecnologias de biossegurança correspondentes aos seus tempos históricos. <br />
+      <br />
       com o tempo e contato de diferentes culturas essas práticas tomaram novas formas, a máquina de tatuagem (elétricas ou pens) surgem pra facilitar o processo, e demarcam outras expressões culturais. <br />
+      <br />
       hoje, tanto a tattoo com máquina como a sem podem ter sentidos diferentes para cada tatuadore que você conheça, por isso é importante que você pesquise bem sobre  tatuadores que interessam e se você se sente confortável com esse processo. <br />
       <br />
 
