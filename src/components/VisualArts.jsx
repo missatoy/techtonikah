@@ -37,6 +37,14 @@ export default function VisualArts() {
     </p>
   )
 
+  const trabalhoGraficoUrl = (
+    "https://docs.google.com/presentation/d/1H5JVyvyujqAO-C9vpy_ZOjAU3Z7uBW-uCl1AYLyizdU/edit?usp=sharing"
+  )
+
+  const pinturaUrl = (
+    "https://docs.google.com/presentation/d/1r5_xlf9Puq6xdtVlw9AnUVXuQ6_puMUDZj3zeAQbdjw/edit?usp=sharing"
+  )
+
   return (
     <>
       <Topbar />
@@ -47,7 +55,7 @@ export default function VisualArts() {
           </div>
           <div className="d-flex flex-column align-items-center">
             <RetroWindow name="KÁTALOGØ GRÁPHICO" content={trabalhoGraficoText} className="retro-window catalog-margin-bottom" />
-            <a href="https://docs.google.com/presentation/d/1H5JVyvyujqAO-C9vpy_ZOjAU3Z7uBW-uCl1AYLyizdU/edit?usp=sharing"
+            <a href={trabalhoGraficoUrl}
                target="_blank"
                className="catalog-link catalog-link-margin-bottom">VER CATÁLOGO</a>
           </div>
@@ -55,7 +63,7 @@ export default function VisualArts() {
         <div className="windows-layout-one justify-content-center mb-3">
           <div className="d-flex flex-column align-items-center">
             <RetroWindow name="PINTURA" content={pinturaText} className="retro-window catalog-margin-bottom" />
-            <a href="url" className="catalog-link catalog-link-margin-bottom">Link text</a>
+            <a href={pinturaUrl} className="catalog-link catalog-link-margin-bottom">VER CATÁLOGO</a>
           </div>
           <div>
             <RetroWindow name="Contact Us" content={<FormArts />} className="retro-window" />
