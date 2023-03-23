@@ -228,7 +228,7 @@ body {
 .retro-body {
   border: solid #06F108;
   overflow-y: auto;
-  height: 275px;
+  height: 300px;
 }
 
 /* width */
@@ -314,10 +314,6 @@ body {
   .retro-window {
       min-width: 325px;
       max-width: 325px;
-  }
-
-  .retro-body {
-    height: 250px;
   }
 
   .windows-layout-one {
