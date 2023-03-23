@@ -14,6 +14,29 @@ export default function VisualArts() {
     </p>
   )
 
+  const pinturaText = (
+    <p>
+      <br />
+      abstração expr€ssionist4h<br />
+      mineral afrossurealista<br />
+      especulação plástica<br />
+      natureza extra_humana? y/OU ante_humanO¿<br />
+      >> paisagem antig r a&nbsp; v&nbsp; i&nbsp; t &nbsp; a &nbsp; c &nbsp; i &nbsp; o &nbsp;&nbsp;&nbsp;
+          n &nbsp;&nbsp;&nbsp;&nbsp; a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l<br />
+        : and devices &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y gestos<br />
+      for remembering &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para lembrar<br />
+      something<br />
+      that maybe<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;we &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; de algo que<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ talvez<br />
+                                        <br />
+      forgot<br />
+      esquecemos///<br />
+      <br />
+      >>> sinuosas sombras trópicas do [ sul ]<br />
+    </p>
+  )
+
   return (
     <>
       <Topbar />
@@ -31,7 +54,7 @@ export default function VisualArts() {
         </div>
         <div className="windows-layout-one justify-content-center mb-3">
           <div className="d-flex flex-column align-items-center">
-            <RetroWindow name="PINTURA" content={""} className="retro-window catalog-margin-bottom" />
+            <RetroWindow name="PINTURA" content={pinturaText} className="retro-window catalog-margin-bottom" />
             <a href="url" className="catalog-link catalog-link-margin-bottom">Link text</a>
           </div>
           <div>
