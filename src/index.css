@@ -4,6 +4,19 @@ Alternative fonts:
   font-family: 'Share Tech', sans-serif;
 */
 
+/* THE FOLLOWING ATTRIBUTE REMOVE THE BLUE OUTLINE WHEN FORM FIELD IS FOCUSED */
+
+*:focus {
+  outline: none;
+}
+
+/* THE FOLLOWING ATTRIBUTE FIX THE COLORS FOR THE AUTOFILL ON THE FORMS */
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: #06F108 !important;
+  -webkit-background-clip: text;
+}
+
 body {
   font-family: 'VT323', monospace;
   background-color: #000;
