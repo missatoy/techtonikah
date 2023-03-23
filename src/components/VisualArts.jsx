@@ -2,6 +2,8 @@ import Topbar from "./navbars/Topbar.jsx";
 import FormArts from "./forms/FormArts.jsx";
 import RetroWindow from "./visuals/RetroWindow.jsx";
 import Botbar from "./navbars/Botbar.jsx";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function VisualArts() {
   const trabalhoGraficoText = (
@@ -21,7 +23,8 @@ export default function VisualArts() {
       mineral afrossurealista<br />
       especulação plástica<br />
       natureza extra_humana? y/OU ante_humanO¿<br />
-      >> paisagem antig r a&nbsp; v&nbsp; i&nbsp; t &nbsp; a &nbsp; c &nbsp; i &nbsp; o &nbsp;&nbsp;&nbsp;
+      <FontAwesomeIcon icon={faAngleRight} />
+      <FontAwesomeIcon icon={faAngleRight} /> paisagem antig r a&nbsp; v&nbsp; i&nbsp; t &nbsp; a &nbsp; c &nbsp; i &nbsp; o &nbsp;&nbsp;&nbsp;
           n &nbsp;&nbsp;&nbsp;&nbsp; a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l<br />
         : and devices &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y gestos<br />
       for remembering &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para lembrar<br />
@@ -33,7 +36,9 @@ export default function VisualArts() {
       forgot<br />
       esquecemos///<br />
       <br />
-      >>> sinuosas sombras trópicas do [ sul ]<br />
+      <FontAwesomeIcon icon={faAngleRight} />{/* 3 times arrows as requested by the client */}
+      <FontAwesomeIcon icon={faAngleRight} />
+      <FontAwesomeIcon icon={faAngleRight} /> sinuosas sombras trópicas do [ sul ]<br />
     </p>
   )
 
@@ -56,8 +61,8 @@ export default function VisualArts() {
           <div className="d-flex flex-column align-items-center">
             <RetroWindow name="KÁTALOGØ GRÁPHICO" content={trabalhoGraficoText} className="retro-window catalog-margin-bottom" />
             <a href={trabalhoGraficoUrl}
-               target="_blank"
-               className="catalog-link catalog-link-margin-bottom">VER CATÁLOGO</a>
+                target="_blank"
+                className="catalog-link catalog-link-margin-bottom">VER CATÁLOGO</a>
           </div>
         </div>
         <div className="windows-layout-one justify-content-center mb-3">
