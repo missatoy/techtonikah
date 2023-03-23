@@ -294,6 +294,7 @@ body {
   }
 
   .wide-screen {
+    background-image:url(./assets/banner-image-vertical.png);
     height: 100%;
   }
 
@@ -302,11 +303,12 @@ body {
   }
 
   .menu-item {
-    font-size: 27px;
+    font-size: 23px;
+    text-align: center;
   }
 
   .text-boxes {
-    margin: 0;
+    margin: auto;
   }
 
   .retro-window {
